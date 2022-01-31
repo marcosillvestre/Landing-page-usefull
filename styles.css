@@ -1,0 +1,342 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+    text-decoration: none;
+}
+.back{
+    background-image: url(./assets/background1.png);
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+.contact{
+    padding: 20px;
+    background-color: #fff;
+    width: 400px;
+    border-radius:20px;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 60px;
+    top: 70px
+}
+.top-paragraph{
+    margin-top:45px;
+    margin-bottom: 5px;
+}
+input{
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    width: 300px;
+    height: 50px;
+    border: 5px;
+    padding: 10px;
+}
+.top-paragraph{
+    margin-left: -250px;
+}
+.contabil{
+    color: #fff;
+    font-size: 24px;
+    line-height: 32px;
+    top: 100px;
+}
+.button{
+    background: #40BB15;
+    border-radius: 5px;
+    width: 300px;
+    height: 50px;
+    margin: 30px;
+    border: none;
+    color: #fff;
+    
+}
+.button:hover{
+    opacity: 0.7;
+}
+.button:active{
+    opacity: 0.5;
+}
+
+.nav-bar{
+    display: flex;
+    margin: 20px 10px;
+
+}
+.a-primary{
+    margin-top: 7px;
+    border: none;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    height:20px;
+}
+a:hover{
+    color: #1E2844;
+    font-size: 18px;
+}
+a{
+    color: #fff;
+}
+h1{
+    margin: 12px 100px 0 20px;
+}
+.contability{
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 80px;
+    position: absolute;
+    top: 60%;
+    left: 50px;
+    color: #fff;
+    
+}
+textarea{
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+}
+.top-title{
+    font-size: 40px;
+    line-height: 57px;
+    text-align: center;
+    margin: 100px
+}
+.boxes{
+    
+    width:300px ;
+    text-align: center;
+    border-radius: 10px;
+    height: 200px;
+    background: #EEF6FF;
+}
+.down-boxes{
+    display: flex;
+    justify-content: space-around;
+    margin: 250px 0;
+
+}
+.background{
+    width: 300px;
+    height: 84px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background: #219653;
+    color: #fff;
+    border-radius: 10px;
+    margin-bottom: 10px
+}
+li{
+    list-style-type: none;
+}
+main{
+    background-color: #1E2844;
+    color: #fff;
+    height: 99vh;
+    text-align: center;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    align-items: center;
+}
+#title-paragraph{
+    margin-top:20px;
+    position: relative; 
+
+}
+.paragraph{
+    padding: 40px;
+
+}
+.button-menu{
+    background: #fff;
+    height: 20px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+}
+.menuIcon{
+    width: 30px;
+    margin-right: 15px;
+    display: none;
+
+}
+.menuIcon:active{
+    opacity: 0.5;
+}
+.form-control {
+    display: none;
+  }
+  #menuList{
+      display: flex;
+      gap: 50px;
+  }
+  .top-paragraph-talk{
+    margin-left: -135px;
+    margin-top: 20px;
+  }
+
+
+
+
+
+
+
+
+ 
+@media (max-width:981px){
+ 
+    #menuList{
+        background: #fff;
+        border-radius: 3px;
+        padding:5px;
+        position: absolute;
+        top: 65px;
+        right: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        visibility: hidden;
+        transition: 0.7s ease-in;
+        position: fixed;
+        z-index: 5;
+    }
+    a{
+        color: #000;
+    }
+    .contability{
+        display: none;
+    }
+    .contabil{
+        margin: 20px 20px;
+
+    }
+    
+    .back{
+        background-size: cover;
+        position: relative;
+    }
+    .top-paragraph{
+        margin-left: -180px;
+    }
+    .top-paragraph-talk{
+        margin-top: 20px;
+
+    }
+ 
+    .menuIcon{
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 8px;
+    }
+    
+    textarea{
+        width: 100%;
+        margin-top: 5px;
+    }
+    .contact{
+        background-color: #fff;
+        border-radius:20px;
+        position: absolute;
+        height:550px;
+        width: 300px;
+        margin: 40px 0px;
+        
+    }
+    .h1{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .button{
+        width: 100%;
+    }
+    input{
+        width: 100%;
+     
+    }
+    .down-boxes{
+    flex-wrap: wrap;
+    margin-top: 25px;
+    gap: 35px;
+
+    }
+    main{
+        height: 170vh;
+        padding: 5px;
+        font-size: 18px;
+        width: 100%;
+    }
+    .top-title{
+        font-size: 25px;
+        font-weight: bold;
+
+    }
+    .menu {
+        background: transparent;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        position: fixed;
+        top: 10px;
+        right: 25px;
+      }
+      
+      
+      .hamburguer {
+        position: relative;
+        display: block;
+        background: #000;
+        width: 30px;
+        height: 2px;
+        top: 29px;
+        left: 15px;
+        transition: 0.5s ease-in-out;
+      }
+      
+      .hamburguer:before,
+      .hamburguer:after {
+        background: #000;
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        transition: 0.5s ease-in-out;
+      }
+      
+      .hamburguer:before {
+        top: -10px;
+      }
+      
+      .hamburguer:after {
+        bottom: -10px;
+      }
+      
+      .form-control {
+        display: none;
+      }
+      
+      input:checked ~ label .hamburguer {
+        transform: rotate(45deg);
+      }
+      
+      input:checked ~ label .hamburguer:before {
+        transform: rotate(90deg);
+        top: 0;
+      }
+      
+      input:checked ~ label .hamburguer:after {
+        transform: rotate(90deg);
+        bottom: 0;
+      }
+}
+
