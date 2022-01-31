@@ -138,7 +138,7 @@ li{
 main{
     background-color: #1E2844;
     color: #fff;
-    height: 99vh;
+    height: 65vh;
     text-align: center;
     font-weight: 500;
     font-size: 28px;
@@ -152,6 +152,7 @@ main{
 }
 .paragraph{
     padding: 40px;
+    text-align: justify;
 
 }
 .button-menu{
@@ -182,7 +183,20 @@ main{
     margin-left: -135px;
     margin-top: 20px;
   }
+  .logos{
+      display: flex;
+      justify-content:center;
+      gap: 30px;
+      position: relative;
+      top: 75px;
 
+  }
+.networks{
+    height:40px;
+    width:40px;
+    background: transparent;
+    border: none;
+}
 
 
 
@@ -192,6 +206,10 @@ main{
 
  
 @media (max-width:981px){
+    .logos{
+        position: relative;
+        top: 50px;
+    }
  
     #menuList{
         background: #fff;
