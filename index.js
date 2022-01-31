@@ -1,4 +1,6 @@
 const buttonMenuList = document.getElementById("menu-hamburguer")
+const menuList = document.getElementById("menuList")
+
 
 
 function showmenu(){

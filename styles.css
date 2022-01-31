@@ -12,6 +12,7 @@
     display: flex;
     height: 100vh;
     width: 100%;
+    justify-content:center;
 }
 .contact{
     padding: 20px;
@@ -44,13 +45,15 @@ input{
     color: #fff;
     font-size: 24px;
     line-height: 32px;
-    top: 100px;
+    position: absolute;
+    top: 10px;
+    left: 5px;
 }
 .button{
     background: #40BB15;
     border-radius: 5px;
     width: 300px;
-    height: 50px;
+    height: 5rem;
     margin: 30px;
     border: none;
     color: #fff;
@@ -65,11 +68,11 @@ input{
 
 .nav-bar{
     display: flex;
-    margin: 20px 10px;
+    position: absolute;
+    margin: 30px 10px;
 
 }
 .a-primary{
-    margin-top: 7px;
     border: none;
     background: transparent;
     color: #fff;
@@ -140,9 +143,9 @@ main{
     color: #fff;
     height: 70vh;
     text-align: center;
-    font-weight: 500;
+    font-weight: lighter;
     font-size: 25px;
-    line-height: 40px;
+    line-height: 35px;
     align-items: center;
 }
 #title-paragraph{
@@ -180,7 +183,7 @@ main{
       gap: 50px;
   }
   .top-paragraph-talk{
-    margin-left: -135px;
+    margin-left: -205px;
     margin-top: 20px;
   }
   .logos{
@@ -188,8 +191,7 @@ main{
       justify-content:center;
       gap: 30px;
       position: relative;
-      top: 30px;
-
+      margin: 20px;
   }
 .networks{
     height:40px;
@@ -208,7 +210,7 @@ main{
 @media (max-width:981px){
     .logos{
         position: relative;
-        top: 50px;
+        margin: 35px;
     }
  
     #menuList{
@@ -220,7 +222,7 @@ main{
         right: 20px;
         display: flex;
         flex-direction: column;
-        gap: 2px;
+        gap: 4px;
         visibility: hidden;
         transition: 0.7s ease-in;
         position: fixed;
@@ -288,8 +290,9 @@ main{
 
     }
     main{
-        height: 175vh;
+        height: 130vh;
         font-size: 18px;
+        line-height: 35px;
     }
     .top-title{
         font-size: 25px;
