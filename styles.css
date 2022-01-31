@@ -288,10 +288,8 @@ main{
 
     }
     main{
-        height: 170vh;
-        padding: 5px;
+        height: 175vh;
         font-size: 18px;
-        width: 100%;
     }
     .top-title{
         font-size: 25px;
