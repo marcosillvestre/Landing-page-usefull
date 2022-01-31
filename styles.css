@@ -141,7 +141,7 @@ main{
     height: 70vh;
     text-align: center;
     font-weight: 500;
-    font-size: 28px;
+    font-size: 25px;
     line-height: 40px;
     align-items: center;
 }
@@ -188,7 +188,7 @@ main{
       justify-content:center;
       gap: 30px;
       position: relative;
-      top: 75px;
+      top: 30px;
 
   }
 .networks{
