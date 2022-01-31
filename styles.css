@@ -138,24 +138,21 @@ textarea{
 li{
     list-style-type: none;
 }
-main{
-    background-color: #1E2844;
-    color: #fff;
-    height: 70vh;
-    text-align: center;
-    font-weight: lighter;
-    font-size: 25px;
-    line-height: 35px;
-    align-items: center;
-}
+
 #title-paragraph{
-    margin-top:20px;
-    position: relative; 
+    margin-bottom:20px;
 
 }
 .paragraph{
     padding: 40px;
     text-align: justify;
+    background-color: #1E2844;
+    color: #fff;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 25px;
+    line-height: 35px;
+    align-items: center;
 
 }
 .button-menu{
@@ -248,6 +245,7 @@ main{
     }
     .top-paragraph-talk{
         margin-top: 20px;
+        margin-left: -130px;
 
     }
  
@@ -290,7 +288,6 @@ main{
 
     }
     main{
-        height: 130vh;
         font-size: 18px;
         line-height: 35px;
     }
